@@ -130,3 +130,11 @@
 .counter-section{
     margin-bottom: 80px;
 }
+footer{
+    background-color: #161616;
+    padding: 100px 20px;
+}
+.footer-text{
+    color: #ffffff;
+
+}
