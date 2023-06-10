@@ -43,7 +43,7 @@
     display: inline-block;
 }
 .container{
-    max-width: 1400px;
+    width: 1400px;
 }
 .half-width{
     width: 50%;
@@ -114,4 +114,19 @@
     line-height: 26px;
     color: #858585;
 }
-
+.counter-box{
+    padding: 60px;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 30px;
+}
+.third{
+    width: 33.33%;
+}
+.counter-title{
+    color: #18191F;
+    font-size: 40px;
+    font-weight: 800;
+}
+.counter-section{
+    margin-bottom: 80px;
+}
