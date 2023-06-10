@@ -14,11 +14,26 @@
     color: #575757;
     font-size: 60px;
     font-weight: 700;
+    line-height: 1.4em;
 }
 .brand-color{
     background: #FBA24F;
     background: linear-gradient( 120deg, #FBA24F 50%, #FF1E1E 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-
+}
+.text{
+    color: #828282;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.5em;
+}
+.my-btn{
+    padding: 15px 40px;
+    border-radius: 100px;
+    background-image: linear-gradient( 120deg, #FBA24F 0%, #FF1E1E 100%);
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 600;
+    display: inline-block;
 }
