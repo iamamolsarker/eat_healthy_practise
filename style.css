@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+}
+.flex-container{
+    display: flex;
+    align-items: center;
+}
+.main-title{
+    color: #575757;
+    font-size: 60px;
+    font-weight: 700;
+}
+.brand-color{
+    background: #FBA24F;
+    background: linear-gradient( 120deg, #FBA24F 50%, #FF1E1E 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
