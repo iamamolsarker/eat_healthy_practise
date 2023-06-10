@@ -6,6 +6,9 @@
     font-family: 'Montserrat', sans-serif;
     text-decoration: none;
 }
+*:last-child, div{
+    margin-bottom: 0 !important;
+}
 .flex-container{
     display: flex;
     align-items: center;
@@ -28,9 +31,10 @@
     font-size: 20px;
     font-weight: 500;
     line-height: 1.5em;
+    width: 75%;
 }
 .my-btn{
-    padding: 15px 40px;
+    padding: 18px 40px;
     border-radius: 100px;
     background-image: linear-gradient( 120deg, #FBA24F 0%, #FF1E1E 100%);
     color: #ffffff;
@@ -56,7 +60,21 @@
 }
 .about-img{
     width: 400px;
+    display: block;
+    margin: 0 auto;
 }
-section{
+.banner{
     padding: 50px 0;
 }
+.about-section{
+    padding-top: 80px;
+}
+.about-img-div{
+    padding: 0;
+    text-align: center;
+}
+.sub-title{
+    color: #707070;
+    font-size: 40px;
+}
+
